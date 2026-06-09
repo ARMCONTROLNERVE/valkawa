@@ -22,12 +22,12 @@ function updatePet() {
     }
 
     if (isEating) {
-        pet.src = "iseating.png";
+        pet.src = "pet.png";
         return;
     }
 
     if (isPet) {
-        pet.src = "pet.png";
+        pet.src = "iseating.png";
         return;
     }
 
@@ -63,6 +63,14 @@ document.getElementById("heart").onclick = function () {
     setInterval(() => {
         hunger--;
         happiness--;
+
+        if (hunger < 0) {
+    hunger = 0;
+}
+
+if (happiness < 0) {
+    happiness = 0;
+}
 
         document.getElementById("hunger").innerText = "Hunger: " + hunger;
          document.getElementById("happiness").innerText = "Happiness: " + happiness;
