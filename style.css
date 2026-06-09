@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(101, 99, 99);
+    text-align: center;
+    margin: 10px;
+    border: 10px solid palevioletred;
+}
+
+h1 {
+    color: palevioletred;
+    text-shadow: 0cap;
+    font-family: 'Lucida Sans';
+}
+
+
+#cookie {
+  width: 100px;
+  height: auto;
+} 
+
+#heart {
+    width: 100px;
+    height: auto;
+}
+
+#hunger {
+    color:palevioletred;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    top: 45%;
+    right: 23%;
+}
+#happiness {
+    color:palevioletred;
+     font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    top: 55%;
+    right: 23%;
+}
+
