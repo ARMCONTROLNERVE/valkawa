@@ -11,6 +11,9 @@ h1 {
     font-family: 'Lucida Sans';
 }
 
+#stats {
+    margin: 25px
+}
 
 #cookie {
   width: 100px;
@@ -22,50 +25,41 @@ h1 {
     height: auto;
 }
 
-#hunger {
-    color:palevioletred;
-    font-family: 'Franklin Gothic Medium';
-    position: absolute;
-    top: 45%;
-    right: 23%;
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
 }
+
+#hunger,
 #happiness {
-    color:palevioletred;
-     font-family: 'Franklin Gothic Medium';
-    position: absolute;
-    top: 55%;
-    right: 23%;
+    position: static;
+    color: palevioletred;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
 }
 
 @media (max-width:600px) {
     #pet {
         width:250px;
+        display: block;
+        margin: 0 auto;
     }
 
 #cookie,
 #heart {
-    width: 50px;
-    position: relative;
-    right: 22px;
+    width: 60px;
 }
 
-
-#hunger {
-    width: 44px;
-    top: 15%
+#stats {
+    margin: 25px
 }
 
-#happiness {
-    width: 57px;
-    top: 30%
-}
-
-#hunger,
-#happiness {
-    font-size: 25px;
-}
 
 body {
- margin: 5px;
+ margin: 0;
+ border-width: 5px;
 }
 }
