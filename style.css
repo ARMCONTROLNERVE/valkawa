@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(101, 99, 99);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     margin: 10px;
-    border: 10px solid palevioletred;
+    border: 10px solid rgb(183, 17, 73);
 }
 
 h1 {
-    color: palevioletred;
+    color: rgb(205, 29, 88);
     text-shadow: 0cap;
     font-family: 'Lucida Sans';
 }
@@ -36,7 +36,7 @@ h1 {
 #hunger,
 #happiness {
     position: static;
-    color: palevioletred;
+    color: #9c1844;
     font-family: 'Franklin Gothic Medium';
     font-size: 25px;
 }
