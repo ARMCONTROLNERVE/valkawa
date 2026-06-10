@@ -3,8 +3,6 @@ let happiness = 50;
 let isDead = false;
 let isEating = false;
 let isPet = false;
-let isTalking = false;
-
 
 function updatePet() {
 
@@ -77,5 +75,4 @@ if (happiness < 0) {
          updatePet();
    
     }, 1000);
-
-
+//force build
